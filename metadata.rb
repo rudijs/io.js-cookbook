@@ -4,6 +4,9 @@ maintainer_email 'chris@bloo.ie'
 license          'MIT'
 description      'Installs/Configures iojs'
 long_description 'Installs/Configures iojs'
-version          '0.1.0'
+version          '0.1.1'
 
-depends     "tar"
+source_url       'https://github.com/Blooie/io.js-cookbook'
+issue_url        'https://github.com/Blooie/io.js-cookbook/issues'
+
+depends          "tar"

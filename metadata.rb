@@ -5,3 +5,5 @@ license          'MIT'
 description      'Installs/Configures iojs'
 long_description 'Installs/Configures iojs'
 version          '0.1.0'
+
+depends     "tar"

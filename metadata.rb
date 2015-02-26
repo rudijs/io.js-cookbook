@@ -7,6 +7,6 @@ long_description 'Installs/Configures iojs'
 version          '0.1.1'
 
 source_url       'https://github.com/Blooie/io.js-cookbook'
-issue_url        'https://github.com/Blooie/io.js-cookbook/issues'
+issues_url        'https://github.com/Blooie/io.js-cookbook/issues'
 
 depends          "tar"

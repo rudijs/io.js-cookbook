@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
-@test "Check node version" {
+@test "Check default node version" {
   run node -v
   [ "$status" -eq 0 ]
-  [ $(expr "$output" : ".*v1.3.0") -ne 0 ]
+  [ $(expr "$output" : ".*v1.4.2") -ne 0 ]
 }

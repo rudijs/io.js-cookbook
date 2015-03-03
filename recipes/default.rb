@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-tar_extract "https://iojs.org/dist/latest/iojs-v#{node['iojs']['version']}-linux-x64.tar.gz" do
+tar_extract "https://iojs.org/dist/v#{node['iojs']['version']}/iojs-v#{node['iojs']['version']}-linux-x64.tar.gz" do
     target_dir '/usr/local/lib'
 end
 

@@ -5,6 +5,7 @@
 .*.sw[a-z]
 *.un~
 pkg/
+.idea/
 
 # Berkshelf
 .vagrant
@@ -18,3 +19,4 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+
